@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[running verify text]]>
+    </line>
+    <line>
+      <![CDATA[logout from application]]>
+    </line>
+    <line>
+      <![CDATA[close the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-14T15:20:14 IST" name="Suite" finished-at="2022-11-14T15:22:19 IST" duration-ms="124257">
+    <groups>
+    </groups>
+    <test started-at="2022-11-14T15:20:14 IST" name="Test" finished-at="2022-11-14T15:22:19 IST" duration-ms="124257">
+      <class name="Testclasses.TC1">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Testclasses.TC1@74e28667]" started-at="2022-11-14T15:20:15 IST" name="openBrowser" finished-at="2022-11-14T15:22:03 IST" duration-ms="108132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:Testclasses.TC1@74e28667]" started-at="2022-11-14T15:22:03 IST" name="openApp" finished-at="2022-11-14T15:22:07 IST" duration-ms="4736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="VerifyText()[pri:0, instance:Testclasses.TC1@74e28667]" started-at="2022-11-14T15:22:07 IST" name="VerifyText" finished-at="2022-11-14T15:22:16 IST" duration-ms="8048" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[running verify text]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyText -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Testclasses.TC1@74e28667]" started-at="2022-11-14T15:22:16 IST" name="logout" finished-at="2022-11-14T15:22:19 IST" duration-ms="3128" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testclasses.TC1@74e28667]" started-at="2022-11-14T15:22:19 IST" name="closeBrowser" finished-at="2022-11-14T15:22:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testclasses.TC1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
