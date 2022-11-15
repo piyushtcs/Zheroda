@@ -33,6 +33,7 @@ public void VerifyText() throws Throwable {
 	Reporter.log("running verify text",true);
 	String actText=h.verifyText();
 	String expText=Utility.getTD(1, 2);
+	System.out.println("Hello github");
 }
 @AfterMethod
 public void logout() {
