@@ -15,6 +15,7 @@ public class Homepage {
 	public String verifyText() {
 		String actText=text.getText();
 		return actText;
+		System.out.println("should i verifyText");
 	}
 	public void clicklogout() {
 		logout.click();
