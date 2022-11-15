@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class Homepage {
 	@FindBy (xpath="//td[text()='Enter Time-Track']")private WebElement text;
 	@FindBy (xpath="//a[@id='logoutLink']") private WebElement logout;
-
+System.out.println("hi");
 	public  Homepage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
